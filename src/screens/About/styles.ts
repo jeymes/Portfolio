@@ -8,16 +8,8 @@ flex-direction: column;
 width: 100%;
 height: 100vh;
 color: white;
-margin-top: 50px;
-margin-bottom: 50px;
 
-
-@media (max-width:800px) {
-    margin-top: 100px;
-    }
 `;
-
-
 export const SubContainer = styled.div`
 display: flex;
 justify-content: space-between;
@@ -26,8 +18,7 @@ width: 90%;
 /* border: 1px solid red;'' */
 
 @media (max-width:500px) {
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: flex-start;
     height: 100%;
     flex-direction: column;
     }
