@@ -2,26 +2,27 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
 width: 100%;
 height: 100vh;
 color: white;
+flex-direction: column;
 background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 
+@media (max-width:500px) {
+    align-items: flex-start;
+    }
 `;
 export const SubContainer = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;
-height: 90%;
 /* border: 1px solid red; */
 
 @media (max-width:500px) {
-    /* margin-top: 20px; */
-    justify-content: center;
-    height: 100%;
+    margin-top: 30px;
     flex-direction: column;
     }
 `;

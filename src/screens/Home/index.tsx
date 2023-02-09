@@ -4,6 +4,7 @@ import * as S from './styles';
 import Lottie from "lottie-react";
 
 import Dev from '../../assets/dev.json';
+import Header from '../../components/Header';
 
 const style = {
   height: 800,
@@ -13,6 +14,7 @@ const style = {
 export function Home() {
   return (
     <S.Container>
+      <Header/>
  <S.SubContainer>
 
 <S.Descripion>
