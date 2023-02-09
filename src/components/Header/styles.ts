@@ -48,9 +48,11 @@ export const ContainerButton = styled.div`
     }
     @media (max-width: 700px){
         padding: 8px 28px;
+        font-size: 15px;
     }
     @media (max-width: 450px){
         padding: 5px 20px;
+        font-size: 13px;
     }
     }
 `;

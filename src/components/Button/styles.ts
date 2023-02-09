@@ -29,6 +29,7 @@ export const ButtonContato = styled.h3`
     margin-inline:10px;
     cursor: pointer;
     background-color: #3D73F1;
+
     :hover{
         opacity: 80%;
         background-color: #2E579F;

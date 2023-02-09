@@ -1,5 +1,4 @@
 import Button from '../../components/Button';
-import Header from '../../components/Header';
 import * as S from './styles';
 
 import Lottie from "lottie-react";
@@ -14,7 +13,6 @@ const style = {
 export function Home() {
   return (
     <S.Container>
-      <Header/>
  <S.SubContainer>
 
 <S.Descripion>
@@ -30,7 +28,7 @@ export function Home() {
    <Lottie
    animationData={Dev}
    loop={true}
-   style={style}
+  //  style={style}
    />
 </S.ContainerImg>
 
