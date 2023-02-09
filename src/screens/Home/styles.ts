@@ -19,7 +19,7 @@ height: 90%;
 /* border: 1px solid red; */
 
 @media (max-width:500px) {
-    /* margin-top: 20px; */
+    margin-top: 30px;
     justify-content: flex-start;
     height: 100%;
     flex-direction: column;
