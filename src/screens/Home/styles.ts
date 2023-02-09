@@ -19,13 +19,10 @@ height: 90%;
 /* border: 1px solid red; */
 
 @media (max-width:500px) {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    justify-content: center;
     height: 100%;
     flex-direction: column;
-    }
-    @media (max-width:430px) {
-    justify-content: flex-start;
-    height: 100%;
     }
 `;
 export const Descripion = styled.div`
@@ -51,7 +48,7 @@ h1{
         margin-bottom: 50px;
     }
     @media (max-width:420px) {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 `;
