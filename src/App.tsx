@@ -1,13 +1,23 @@
 import Header from './components/Header'
+import { About } from './screens/About';
 import { Home } from './screens/Home'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 
   return (
-    <>
-    <Header/>
-     <Home/>
-    </>
+<>
+      <BrowserRouter>
+
+      <Header/>
+
+        <Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+
+      </BrowserRouter>
+      </>
   )
 }
 

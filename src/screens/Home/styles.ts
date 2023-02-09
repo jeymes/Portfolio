@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
+flex-direction: column;
 width: 100%;
 height: 100vh;
 color: white;
 background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
-
 `;
 export const SubContainer = styled.div`
 display: flex;
@@ -52,7 +52,6 @@ h1{
     }
 }
 `;
-
 export const ContainerImg = styled.div`
 display: flex;
 width: 100%;
