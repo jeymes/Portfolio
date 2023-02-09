@@ -18,13 +18,13 @@ align-items: center;
     }
 `;
 
-export const ButtonContato = styled.h3`
+export const ButtonContato = styled.button`
     padding: 15px 100px;
     text-align: center;
     border-radius: 10px;
     border: none;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-inline:10px;
     cursor: pointer;
@@ -36,6 +36,7 @@ export const ButtonContato = styled.h3`
     }
     @media (max-width:875px) {
         padding: 10px 85px;
+        font-size: 25px;
     }
     @media (max-width:840px) {
         padding: 10px 80px;

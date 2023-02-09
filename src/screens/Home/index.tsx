@@ -28,7 +28,6 @@ export function Home() {
    <Lottie
    animationData={Dev}
    loop={true}
-  //  style={style}
    />
 </S.ContainerImg>
 

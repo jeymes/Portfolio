@@ -1,5 +1,5 @@
-import React from "react";
 import * as S from "./styles"
+import { Link } from "react-router-dom";
 
 export default function Button() {
     return (
@@ -7,7 +7,13 @@ export default function Button() {
 
             <S.ContainerButton>
 
-                    <S.ButtonContato>GitHub</S.ButtonContato>
+                    <S.ButtonContato>
+                        <a
+                        style={{textDecoration: 'none', color: 'white'}} 
+                        href="https://github.com/jeymes">
+                            GitHub
+                            </a>
+                    </S.ButtonContato>
 
             </S.ContainerButton>
 
