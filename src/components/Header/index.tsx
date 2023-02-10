@@ -15,9 +15,9 @@ export default function Header() {
                 </div>
             </Link>
 
-            <Link to={'/habilidades'} style={{ textDecoration: 'none' }}>
+            <Link to={'/skills'} style={{ textDecoration: 'none' }}>
                 <div>
-                    <p>Habilidades</p>
+                    <p>Tecnologias</p>
                 </div>
             </Link>
 

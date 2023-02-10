@@ -6,10 +6,9 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 100%;
-height: 100vh;
 color: white;
 margin-top: 80px;
-margin-bottom: 30px;
+margin-bottom: 50px;
 `;
 export const SubContainer = styled.div`
 display: flex;

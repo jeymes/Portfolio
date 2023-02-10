@@ -6,9 +6,9 @@ justify-content: flex-start;
 align-items: center;
 flex-direction: column;
 width: 100%;
-height: 100vh;
 color: white;
 margin-top: 50px;
+margin-bottom: 30px;
 `;
 export const SubContainer = styled.div`
 display: flex;
