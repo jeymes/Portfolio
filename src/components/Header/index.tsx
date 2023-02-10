@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function Header() {
     return (
         <J.Container>
-    <Link to={'/home'} style={{ textDecoration: 'none' }}>
+    <Link to={'/'} style={{ textDecoration: 'none' }}>
                 <div>
-                    <p>Home</p>
+                    <p>Inicio</p>
                 </div>
             </Link>
             <Link to={'/about'} style={{ textDecoration: 'none' }}>
