@@ -1,7 +1,4 @@
-import Button from '../../components/Button';
 import * as S from './styles';
-import Lottie from "lottie-react";
-import Dev from '../../assets/map.json';
 
 export function About() {
   return (
@@ -29,7 +26,6 @@ export function About() {
             Sendo assim, decidir foca o meu tempo e as minhas folgas para aprender cada dia,
             mas sobre desenvolvimento web, todos os dias foco para desenvolver ferramentas de qualidade que venha somar no dia-a-dia.
            </h2>
-        {/* <Button/> */}
 
 </S.Descripion>
 </S.SubContainer>
