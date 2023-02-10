@@ -31,7 +31,7 @@ flex-direction: column;
 margin-left: 100px;
 justify-content: flex-start;
 align-items: flex-start;
-border: 1px solid red;
+/* border: 1px solid red; */
 
 @media (max-width:500px) {
     margin-left: 0px;
@@ -66,8 +66,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 50px;
+/* border: 1px solid red; */
 
-border: 1px solid red;
 img{
     width: 350px;
     border-radius: 10%;
