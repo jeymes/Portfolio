@@ -8,18 +8,16 @@ flex-direction: column;
 width: 100%;
 height: 100vh;
 color: white;
-background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+margin-top: 50px;
 `;
 export const SubContainer = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;
-height: 90%;
 /* border: 1px solid red; */
 
 @media (max-width:500px) {
-    margin-top: 50px;
     justify-content: flex-start;
     height: 100%;
     flex-direction: column;
@@ -36,6 +34,7 @@ flex-direction: column;
 
 @media (max-width:500px) {
     margin-left: 0px;
+    margin-bottom: 50px
     }
 
 h1{

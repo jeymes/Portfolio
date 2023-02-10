@@ -8,7 +8,8 @@ flex-direction: column;
 width: 100%;
 height: 100vh;
 color: white;
-margin-top: 100px;
+margin-top: 80px;
+margin-bottom: 30px;
 `;
 export const SubContainer = styled.div`
 display: flex;
@@ -19,7 +20,6 @@ width: 90%;
 
 @media (max-width:500px) {
     justify-content: flex-start;
-    margin-top: 100px;
     height: 100%;
     flex-direction: column;
     }
@@ -31,7 +31,7 @@ flex-direction: column;
 margin-left: 100px;
 justify-content: flex-start;
 align-items: flex-start;
-/* border: 1px solid red; */
+border: 1px solid red;
 
 @media (max-width:500px) {
     margin-left: 0px;
@@ -65,7 +65,9 @@ export const ContainerImg = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-/* border: 1px solid red; */
+margin-bottom: 50px;
+
+border: 1px solid red;
 img{
     width: 350px;
     border-radius: 10%;
