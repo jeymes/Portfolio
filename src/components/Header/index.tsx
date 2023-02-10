@@ -21,7 +21,7 @@ export default function Header() {
                 </div>
             </Link>
 
-            <Link to={'/projetos'} style={{ textDecoration: 'none' }}>
+            <Link to={'/projects'} style={{ textDecoration: 'none' }}>
                 <div>
                     <p>Projetos</p>
                 </div>

@@ -47,7 +47,7 @@ width: 90%;
 `;
 
 export const Skills = styled.div`
-display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
