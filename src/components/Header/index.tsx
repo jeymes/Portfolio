@@ -29,7 +29,7 @@ export default function Header() {
 
             <J.ContainerButton>
 
-                <Link to={'/contato'} style={{ textDecoration: 'none' }}>
+                <Link to={'/contact'} style={{ textDecoration: 'none' }}>
                     <button>Contato</button>
                 </Link>
             </J.ContainerButton>

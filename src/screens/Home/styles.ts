@@ -51,7 +51,7 @@ h1{
     }
 }
 `;
-export const ContainerImg = styled.div`
+export const ContainerLottie = styled.div`
 display: flex;
 width: 100%;
 justify-content: center;

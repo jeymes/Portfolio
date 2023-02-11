@@ -12,12 +12,12 @@ export function Home() {
         <Button/>
 </S.Descripion>
 
-<S.ContainerImg>
+<S.ContainerLottie>
    <Lottie
    animationData={Dev}
    loop={true}
    />
-</S.ContainerImg>
+</S.ContainerLottie>
 </S.SubContainer>
 
     </S.Container>
