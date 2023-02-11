@@ -2,12 +2,13 @@ import styled from "styled-components"
 
 export const Container = styled.div`
 display: flex;
-flex-direction: column;
-justify-content: space-evenly;
+justify-content: flex-start;
 align-items: center;
+flex-direction: column;
 width: 100%;
-height: 100vh;
-background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+color: white;
+margin-top: 80px;
+margin-bottom: 30px;
 `;
 export const Title = styled.div`
 display: flex;
@@ -31,14 +32,14 @@ h1{
 `;
 export const SubContainer = styled.div`
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 width: 90%;
 cursor: pointer;
-    border: 1px solid rgba(20,157,208,1) ;
-    box-shadow: 0 0 5px rgba(20,157,208,1);
+border: 1px solid rgba(20,157,208,1) ;
+box-shadow: 0 0 5px rgba(20,157,208,1);
 
-    :hover{
+:hover{
 box-shadow: 0 0 15px rgba(20,157,208,1) ;
 }
 
