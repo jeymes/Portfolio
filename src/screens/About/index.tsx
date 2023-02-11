@@ -13,9 +13,11 @@ export function About() {
 <S.Descripion>
     <h1>Jemerson de Sousa Pinheiro</h1>
 
-        <h2>Tenho 21 anos, moro em Barras/Pi faço faculdade de Análise de desenvolvimento de sistemas atualmente no 3.º semestre,
-           não consigo fica parado sempre que posso assisto aulas no Youtube, faço cursos pela internet como os da Rocketseat, Dio e Sujeito a Progamador, gosto muito de pesquisa e ver as documentações das
-           tecnologias  estudo sobre as que mas admiro, gosto muito de fazer meus próprios projetos e ando me desafiando a cada dia.
+        <h2>Tenho 21 anos, moro em Barras/Pi faço faculdade de Análise de desenvolvimento de sistemas atualmente no 3.º semestre, 
+          não consigo fica parado sempre que posso assistir aulas no YouTube, 
+          faço cursos pela internet como os da Rocketseat, Dio e Sujeito a Programador, 
+          gosto muito de pesquisa e ver as documentações das tecnologias estudo sobre as que, mas admiro,
+          gosto muito de fazer meus próprios projetos e ando me desafiando a cada dia.
            <br/>
            <br/>
            A minha primeira curiosidade sobre T.I foi tenta descobrir como e feito os, app, sites e paginas da internet quando comecei a
