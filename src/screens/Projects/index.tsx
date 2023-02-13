@@ -32,6 +32,12 @@ export function Projects() {
             link='https://github.com/jeymes/New-Fashion'
             titlebutton='Github'
             />
+            <CardProjects
+            title='Site Store Cell'
+            video="/video/storecell.webm"
+            link='https://github.com/jeymes/Store-Cell'
+            titlebutton='Github'
+            />
 
         </S.SubContainer>
     </S.Container>
