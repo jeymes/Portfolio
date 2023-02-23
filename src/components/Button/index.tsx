@@ -9,7 +9,7 @@ export default function Button() {
             <S.ContainerButton>
                 <form action="/img/Jemerson de sousa pinheiro.pdf" >
                     <S.ButtonContato>
-                    Curriculo
+                    Currículo
                     </S.ButtonContato>
                     </form>
 
