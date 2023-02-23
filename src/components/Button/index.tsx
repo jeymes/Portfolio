@@ -7,11 +7,11 @@ export default function Button() {
         <S.Container>
 
             <S.ContainerButton>
-                <Link to={'https://github.com/jeymes'} style={{ textDecoration: 'none' }}>
+                <form action="/img/Jemerson de sousa pinheiro.pdf" >
                     <S.ButtonContato>
-                            GitHub
+                    Curriculo
                     </S.ButtonContato>
-                    </Link>
+                    </form>
 
             </S.ContainerButton>
 

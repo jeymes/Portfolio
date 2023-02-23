@@ -69,7 +69,7 @@ margin-bottom: 50px;
 
 img{
     width: 350px;
-    border-radius: 10%;
+    border-radius: 20%;
     @media (max-width:1000px) {
         width: 300px;
     }
