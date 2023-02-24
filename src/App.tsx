@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Skills } from './screens/Skills';
 import { Projects } from './screens/Projects';
 import Contact from './screens/Contact';
+import { ProjectsWeb } from './components/ProjectsWeb';
+import { ProjectsMobile } from './components/ProjectsMobile';
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
           <Route path='/skills' element={<Skills />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/projects-web' element={<ProjectsWeb />} />
+          <Route path='/projects-mobile' element={<ProjectsMobile />} />
         </Routes>
 
       </BrowserRouter>
