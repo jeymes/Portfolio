@@ -17,18 +17,14 @@ export function CardProjects({title, video, link, titlebutton}: Props) {
       <h1>{title}</h1>
         <video src={video} controls muted/>
 
-        <S.ContainerButton>
 
-<S.SubContainerButton>
     <Link to={link} style={{ textDecoration: 'none' }}>
         <S.Button>
             {titlebutton}
         </S.Button>
         </Link>
 
-</S.SubContainerButton>
 
-</S.ContainerButton>
 
     </S.Container>
   );

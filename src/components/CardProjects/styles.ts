@@ -34,28 +34,6 @@ video{
     border-radius: 10px;
 }
 `;
-export const ContainerButton = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-margin-top: 30px;
-margin-bttom: 30px;
-`;
-
-export const SubContainerButton = styled.div`
-display: flex;
-width: 100%;
-justify-content: center;
-align-items: center;
-/* border: 1px solid red; */
-
-@media (max-width:400px) {
-        flex-direction: column;
-    }
-`;
-
 export const Button = styled.button`
     padding: 15px 100px;
     width: 100%;
@@ -65,7 +43,7 @@ export const Button = styled.button`
     color: white;
     font-size: 20px;
     font-weight: 700;
-    margin-inline:10px;
+    margin-block: 30px;
     cursor: pointer;
     background-color: #3D73F1;
 
@@ -79,17 +57,15 @@ export const Button = styled.button`
     }
     @media (max-width:840px) {
         padding: 10px 80px;
-        margin-inline:5px;
     }
     @media (max-width:715px) {
         padding: 10px 80px;
     }
     @media (max-width:555px) {
-        margin-inline:3px;
         padding: 10px 50px;
     }
     @media (max-width:430px) {
         padding: 6px 40px;
-        margin-block: 10px;
+        margin-block: 30px;
     }
 `;
