@@ -10,17 +10,10 @@ export function Projects() {
 
                 <HeaderProjects/>
 
-                <S.ContainerListEmpyt>
-                    <S.SubContainerListEmpyt>
-
                         <S.ContainerLottie>
-                           <h1>Escolha uma das opções acima!</h1>
                             <Lottie animationData={Dev}
                                 loop={true}/>
                         </S.ContainerLottie>
-                    </S.SubContainerListEmpyt>
-
-                </S.ContainerListEmpyt>
 
             </S.SubContainer>
         </S.Container>

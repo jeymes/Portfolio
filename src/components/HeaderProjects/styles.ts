@@ -18,19 +18,15 @@ box-shadow: 0 0 15px rgba(20,157,208,1) ;
 p{
     color: white;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
 
     :hover{
         opacity: 50%;
     }
 
     @media (max-width: 700px){
-        font-size: 15px;
-        font-weight: 400px;
+        font-size: 17px;
     }
-    @media (max-width: 450px){
-        font-size: 13px;
-        font-weight: 0;
-    }
+
 }
 `;

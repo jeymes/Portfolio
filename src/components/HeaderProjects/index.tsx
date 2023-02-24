@@ -9,6 +9,9 @@ export default function HeaderProjects() {
                     <p>Web</p>
                 </div>
             </Link>
+                <div>
+                    <p>ou</p>
+                </div>
             <Link to={'/projects-mobile'} style={{ textDecoration: 'none' }}>
                 <div>
                     <p>Mobile</p>
