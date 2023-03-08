@@ -6,6 +6,12 @@ export function ProjectsMobile() {
     <S.Container>
         <S.SubContainer>
 
+        <CardProjects
+            title='Aplicativo GoPizza'
+            video="/video/gopizza.mp4"
+            link='https://github.com/jeymes'
+            titlebutton='Github'
+            />
             <CardProjects
             title='Aplicativo To save'
             video="/video/tosave.mp4"
