@@ -5,7 +5,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
-color: white;
 margin-top: 30px;
 margin-bottom: 30px;
 `;

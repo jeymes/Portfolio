@@ -8,10 +8,15 @@ import Contact from './screens/Contact';
 import { ProjectsWeb } from './components/ProjectsWeb';
 import { ProjectsMobile } from './components/ProjectsMobile';
 
+import { ThemeProvider } from 'styled-components';
+import Theme from './screens/Theme';
+
 function App() {
 
   return (
-<>
+<ThemeProvider
+theme={Theme}
+>
       <BrowserRouter>
 
       <Header/>
@@ -26,7 +31,7 @@ function App() {
         </Routes>
 
       </BrowserRouter>
-      </>
+      </ThemeProvider>
   )
 }
 

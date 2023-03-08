@@ -6,7 +6,6 @@ justify-content: flex-start;
 align-items: center;
 flex-direction: column;
 width: 100%;
-color: white;
 margin-top: 50px;
 margin-bottom: 30px;
 `;
@@ -41,6 +40,7 @@ h1{
     font-size: 55px;
     font-weight: 700;
     margin-bottom: 80px;
+    color: ${({ theme }) => theme.COLORS.TITLE};
 
     @media (max-width:840px) {
         font-size: 30px;

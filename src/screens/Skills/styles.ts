@@ -7,7 +7,6 @@ justify-content: space-evenly;
 align-items: center;
 width: 100%;
 margin-top: 70px;
-background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 
 @media (max-width:600px) {
     margin-top: 30px;
@@ -23,7 +22,7 @@ justify-content: center;
 align-items: center;
 /* border: 1px solid red; */
 h1{
-    color: white;
+    color: ${({ theme }) => theme.COLORS.TITLE};
     width: 100%;
     border-radius: 20px;
     font-size: 40px;

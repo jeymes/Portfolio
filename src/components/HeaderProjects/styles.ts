@@ -6,17 +6,17 @@ height: 11vh;
 display: flex;
 justify-content: space-around;
 align-items: center;
-border: 1px solid #3D73F1;
-box-shadow: 0 0 5px #3D73F1;
+border: 1px solid ${({ theme }) => theme.COLORS.BUTTON};
+box-shadow: 0 0 5px ${({ theme }) => theme.COLORS.BUTTON};
 border-radius: 10px;
-background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+background-image: ${({ theme }) => theme.COLORS.BACKGROUND};
 
 :hover{
-box-shadow: 0 0 15px rgba(20,157,208,1) ;
+box-shadow: 0 0 15px ${({ theme }) => theme.COLORS.SHADOW_BOX};
 }
 
 p{
-    color: white;
+    color: ${({ theme }) => theme.COLORS.TITLE};
     font-size: 20px;
     font-weight: 700;
 

@@ -6,8 +6,8 @@ align-items: center;
 width: 40%;
 padding: 20px;
 border-radius: 10px;
-border: 2px solid #3D73F1;
-box-shadow: 0 0 5px #3D73F1;
+border: 2px solid ${({ theme }) => theme.COLORS.BUTTON};
+box-shadow: 0 0 5px ${({ theme }) => theme.COLORS.BUTTON};
 margin-top: 50px;
 
 @media (max-width:500px) {
@@ -15,13 +15,14 @@ margin-top: 50px;
     }
 
 :hover{
-box-shadow: 0 0 15px rgba(20,157,208,1) ;
+box-shadow: 0 0 15px ${({ theme }) => theme.COLORS.SHADOW_BOX};
 }
 
 h1{
     text-align: center;
     font-size: 30px;
     fdont-weigth: 500;
+    color: ${({ theme }) => theme.COLORS.TITLE};
 
     @media (max-width:500px) {
     font-size: 25px;
@@ -40,16 +41,16 @@ export const Button = styled.button`
     text-align: center;
     border-radius: 10px;
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.COLORS.TITLE};
     font-size: 20px;
     font-weight: 700;
     margin-block: 30px;
     cursor: pointer;
-    background-color: #3D73F1;
+    background-color: ${({ theme }) => theme.COLORS.BUTTON};
 
     :hover{
         opacity: 80%;
-        background-color: #2E579F;
+        background-color: ${({ theme }) => theme.COLORS.BUTTON_HOVER};
     }
     @media (max-width:875px) {
         padding: 10px 85px;

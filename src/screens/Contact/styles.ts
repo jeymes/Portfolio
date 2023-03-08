@@ -6,7 +6,6 @@ justify-content: flex-start;
 align-items: center;
 flex-direction: column;
 width: 100%;
-color: white;
 margin-top: 80px;
 margin-bottom: 30px;
 `;
@@ -17,8 +16,9 @@ height: 40px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 h1{
-    color: white;
+    color: ${({theme}) => theme.COLORS.TITLE};
     width: 100%;
     border-radius: 20px;
     font-size: 40px;
@@ -36,11 +36,11 @@ justify-content: space-between;
 align-items: center;
 width: 90%;
 cursor: pointer;
-border: 1px solid rgba(20,157,208,1) ;
-box-shadow: 0 0 5px rgba(20,157,208,1);
+border: 1px solid ${({ theme }) => theme.COLORS.SHADOW_BOX} ;
+box-shadow: 0 0 5px ${({ theme }) => theme.COLORS.SHADOW_BOX};
 
 :hover{
-box-shadow: 0 0 15px rgba(20,157,208,1) ;
+box-shadow: 0 0 15px ${({ theme }) => theme.COLORS.SHADOW_BOX} ;
 }
 
 @media (max-width: 690px) {
@@ -68,7 +68,7 @@ span{
     padding: 15px;
     width: 90%;
     margin-block:10px;
-    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+    background-image: ${({theme}) => theme.COLORS.BUTTON_GRADIENT};
     border-radius: 20px;
     @media (max-width: 1075px) {
         padding: 10px;
@@ -81,10 +81,10 @@ span{
     
     :hover{
         opacity: 80%;
-        background-image: radial-gradient( circle 300px at 8% 89.3%,  rgba(20,157,208,1) 0%, rgba(140,63,226,1) 90% );
+        background-image: ${({theme}) => theme.COLORS.BUTTON_HOVER};
     }
     a{
-        color: white;
+        color: ${({theme}) => theme.COLORS.TITLE};
         text-align: center;
         padding: 0px 100px;
         width: 100%;

@@ -8,12 +8,12 @@ flex-direction: column;
 width: 200px;
 height: 250px;
 border-radius: 10px;
-border: 2px solid #3D73F1;
-box-shadow: 0 0 5px #3D73F1;
+border: 2px solid ${({ theme }) => theme.COLORS.BUTTON};
+box-shadow: 0 0 5px ${({ theme }) => theme.COLORS.BUTTON};
 margin-top: 40px;
 
 :hover{
-box-shadow: 0 0 15px rgba(20,157,208,1) ;
+box-shadow: 0 0 15px ${({ theme }) => theme.COLORS.SHADOW_BOX};
 }
 
 @media (max-width:600px) {

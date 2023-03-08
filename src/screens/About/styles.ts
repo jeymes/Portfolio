@@ -6,7 +6,6 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 100%;
-color: white;
 margin-top: 80px;
 margin-bottom: 50px;
 `;
@@ -39,6 +38,7 @@ align-items: flex-start;
 h2{
     font-size: 20px;
     font-weight: 300;
+    color: ${({ theme }) => theme.COLORS.TITLE};
 
     @media (max-width:840px) {
         font-size: 20px;
@@ -51,6 +51,7 @@ h2{
 h1{
     font-size: 40px;
     font-weight: 600;
+    color: ${({ theme }) => theme.COLORS.TITLE};
 
     @media (max-width:840px) {
         font-size: 30px;

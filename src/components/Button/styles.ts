@@ -23,16 +23,16 @@ export const ButtonContato = styled.button`
     text-align: center;
     border-radius: 10px;
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.COLORS.TITLE};
     font-size: 25px;
     font-weight: 700;
     margin-inline:10px;
     cursor: pointer;
-    background-color: #3D73F1;
+    background-color: ${({ theme }) => theme.COLORS.BUTTON};
 
     :hover{
         opacity: 80%;
-        background-color: #2E579F;
+        background-color: ${({ theme }) => theme.COLORS.BUTTON_HOVER};
     }
     @media (max-width:875px) {
         padding: 10px 85px;
