@@ -9,7 +9,7 @@ import { ProjectsWeb } from './components/ProjectsWeb';
 import { ProjectsMobile } from './components/ProjectsMobile';
 
 import { ThemeProvider } from 'styled-components';
-import Theme from './screens/Theme';
+import Theme from './theme';
 
 function App() {
 
