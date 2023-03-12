@@ -1,4 +1,5 @@
 import { CardProjects } from '../../components/CardProjects';
+import Api from '../../data/api';
 import * as S from './styles';
 
 export function ProjectsWeb() {
@@ -6,25 +7,16 @@ export function ProjectsWeb() {
     <S.Container>
         <S.SubContainer>
 
-            <CardProjects
-            title='Desafio Portfólio Angula'
-            video="/video/desafio-portfolio-angula.mp4"
-            link='https://github.com/jeymes/desafio-portfolio-angular'
-            titlebutton='Github'
-            />
-            <CardProjects
-            title='Site Store Cell'
-            video="/video/storecell.mp4"
-            link='https://github.com/jeymes/Store-Cell'
-            titlebutton='Github'
-            />
-            <CardProjects
-            title='Calculadora'
-            video="/video/calculadora.mp4"
-            link='https://github.com/jeymes/Calculadora'
-            titlebutton='Github'
-            />
+        {Api.web.map((Api) => (
+          <CardProjects
+          to={`/projectweb/${Api._id}`}
+            _id={Api._id}
+            capa={Api.capa}
+            title={Api.title}
+          />
+        ))}
 
+        
         </S.SubContainer>
     </S.Container>
   );

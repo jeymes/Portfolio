@@ -10,6 +10,8 @@ import { ProjectsMobile } from './components/ProjectsMobile';
 
 import { ThemeProvider } from 'styled-components';
 import Theme from './theme';
+import { ProjectMobile } from './screens/ProjectMobile';
+import { ProjectWeb } from './screens/ProjectWeb';
 
 function App() {
 
@@ -28,6 +30,8 @@ theme={Theme}
           <Route path='/contact' element={<Contact />} />
           <Route path='/projects-web' element={<ProjectsWeb />} />
           <Route path='/projects-mobile' element={<ProjectsMobile />} />
+          <Route path='/projectweb/:_id' element={<ProjectWeb />} />
+          <Route path='/projectmobile/:_id' element={<ProjectMobile />} />
         </Routes>
 
       </BrowserRouter>

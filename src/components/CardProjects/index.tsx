@@ -1,31 +1,24 @@
+import { LinkProps } from 'react-router-dom';
 import * as S from './styles';
-import { Link } from "react-router-dom";
 
-type Props ={
-
-    title: string;
-
-    video: string;
-
-    link: string;
-    titlebutton: string;
+type Props = LinkProps &{
+  _id: string
+  title: string,
+  capa: string,
 }
 
-export function CardProjects({title, video, link, titlebutton}: Props) {
+
+export function CardProjects({title, capa, _id, ...rest}: Props) {
   return (
-    <S.Container>
+    <S.Container
+    {...rest}
+    key={_id}
+    style={{ textDecoration: 'none'}}
+    >
+      <S.ContainerImg>
+      <img src={capa} alt="capa" />
+      </S.ContainerImg>
       <h1>{title}</h1>
-        <video src={video} controls muted/>
-
-
-    <Link to={link} style={{ textDecoration: 'none' }}>
-        <S.Button>
-            {titlebutton}
-        </S.Button>
-        </Link>
-
-
-
     </S.Container>
   );
 }

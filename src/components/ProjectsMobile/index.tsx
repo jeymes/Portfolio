@@ -1,45 +1,26 @@
+import { Link } from 'react-router-dom';
 import { CardProjects } from '../../components/CardProjects';
+import Api from '../../data/api';
 import * as S from './styles';
+import { useState } from 'react';
 
 export function ProjectsMobile() {
+
   return (
     <S.Container>
-        <S.SubContainer>
+      <S.SubContainer>
 
-        <CardProjects
-            title='Aplicativo GoPizza'
-            video="/video/gopizza.mp4"
-            link='https://github.com/jeymes'
-            titlebutton='Github'
-            />
-            <CardProjects
-            title='Aplicativo To save'
-            video="/video/tosave.mp4"
-            link='https://github.com/jeymes'
-            titlebutton='Github'
-            />
-            
-            <CardProjects
-            title='Aplicativo Gym'
-            video="/video/gym.mp4"
-            link='https://github.com/jeymes/Ignite-Gym'
-            titlebutton='Github'
-            />
-            <CardProjects
-            title='Aplicativo Teams'
-            video="/video/teams.mp4"
-            link='https://github.com/jeymes/IgniteTeams'
-            titlebutton='Github'
-            />
-            
-            <CardProjects
-            title='Aplicativo New Fashion'
-            video="/video/newfashion.mp4"
-            link='https://github.com/jeymes/New-Fashion'
-            titlebutton='Github'
-            />
+    {Api.mobile.map((Api) => (
+      <CardProjects
+        to={`/projectmobile/${Api._id}`}
+        _id={Api._id}
+        capa={Api.capa}
+        title={Api.title}
+      />
+    ))}
 
-        </S.SubContainer>
+      </S.SubContainer>
+
     </S.Container>
   );
 }
