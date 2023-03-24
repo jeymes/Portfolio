@@ -69,8 +69,12 @@ margin-bottom: 50px;
 /* border: 1px solid red; */
 
 img{
-    width: 350px;
-    border-radius: 20%;
+    width: 300px;
+    /* background-color: white; */
+    border-radius: 50px;
+    border: 2px solid ${({ theme }) => theme.COLORS.BUTTON};
+    box-shadow: 0 0 5px ${({ theme }) => theme.COLORS.BUTTON};
+
     @media (max-width:1000px) {
         width: 300px;
     }

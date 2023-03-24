@@ -7,24 +7,33 @@ export function About() {
  <S.SubContainer>
 
  <S.ContainerImg>
-<img src="./img/jeymes.jfif" alt="jeymes" />
+<img src="./img/my.png" alt="jeymes" />
 </S.ContainerImg>
 
 <S.Descripion>
     <h1>Jemerson de Sousa Pinheiro</h1>
 
-        <h2>Tenho 22 anos, moro em Barras/Pi faço faculdade de Análise de desenvolvimento de sistemas atualmente no 3.º semestre,
-        sou desenvolvedor front-end com habilidades sólidas em HTML, CSS, JavaScript e TypeScript, bem como experiência em frameworks
-        como React.js e React Native.
+        <h2>Olá, meu nome é Jemerson de Sousa Pinheiro, e sou um desenvolvedor apaixonado por tecnologia e inovação.
+           Meu objetivo profissional é me tornar um engenheiro de software especializado em desenvolvimento de 
+           aplicativos móveis, com foco em React Native.
         <br/>
         <br/>
-        Habilidade em trabalhar com bibliotecas de estilo como Styled Components para criar interfaces
-        de usuário atraentes e responsivas,
-        experiência profissional como estagiário de desenvolvimento front-end na Palmtree,
-        onde aprendi sobre metodologias ágeis de desenvolvimento de software.
+        Atualmente, estou me formando em Análise e Desenvolvimento de Sistemas e tenho um bom entendimento em 
+        projetos de desenvolvimento de software, especialmente em aplicativos móveis para iOS e Android. 
+        Sou apaixonado por tecnologias de front-end, como HTML, CSS, JavaScript, TypeScript e React.js, e tenho 
+        habilidades relevantes em React Native, uma tecnologia cada vez mais popular para desenvolvimento de 
+        aplicativos móveis.
         <br/>
         <br/>
-        Comprometido em desenvolver minha carreira na área de desenvolvimento de software e sempre em busca de novos desafios.
+        Já trabalhei em vários projetos em React Native, incluindo a implementação de recursos avançados, como 
+        autenticação de usuários, push notifications, geolocalização e integração de APIs. Estou sempre disposto a 
+        aprender mais e a me atualizar sobre as novidades na área.
+        </h2>
+        <h2>
+        Minha abordagem para o desenvolvimento de software é baseada em metodologias ágeis, com foco na entrega de 
+        valor para o cliente e na colaboração entre as equipes. Valorizo a comunicação clara e transparente, tanto 
+        com os membros da equipe quanto com os clientes, e estou sempre procurando maneiras de melhorar a eficiência 
+        do processo de desenvolvimento.
         </h2>
 
 </S.Descripion>

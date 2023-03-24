@@ -75,7 +75,7 @@ export function ProjectWeb() {
                                 {
                                 item.github_url !== 
                                 'https://github.com/jeymes' 
-                                ? <S.ButtonLink>Github</S.ButtonLink> 
+                                ? <S.ButtonLink>{item.name_url}</S.ButtonLink> 
                                 : ''
                                 }
                                 </Link>
